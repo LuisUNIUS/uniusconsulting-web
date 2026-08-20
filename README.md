@@ -1,12 +1,16 @@
 # UNIUS Consulting — Coming Soon
 
-Static landing page based on the supplied UNIUS Web En Construcción PPT.
+Página estática "en construcción" para uniusconsulting.com, con el diseño navy/dorado del PPT corporativo de UNIUS Consulting.
 
-## Files
-- `index.html` — page structure and content
-- `style.css` — responsive visual design
-- `assets/` — favicon and extracted presentation assets
-- `robots.txt` / `sitemap.xml` — basic search-engine setup
+## Archivos
+- `index.html` — estructura y contenido de la página
+- `style.css` — estilos (paleta navy #0B1B33 / dorado #B8875A, responsive)
+- `assets/`
+  - `unius-logo.png` — logo (ícono + wordmark), fondo transparente
+  - `unius-wave.png` — franja decorativa de partículas doradas, fondo transparente
+  - `favicon-32.png`, `favicon-192.png`, `favicon-512.png`, `apple-touch-icon.png` — iconos del sitio
+- `robots.txt` / `sitemap.xml` — SEO básico
+- `_headers` — cabeceras de seguridad (formato Cloudflare Pages / Netlify)
 
-## Deployment
-This folder can be published as a static site through Cloudflare Pages and connected to `uniusconsulting.com`.
+## Despliegue
+Esta carpeta se puede publicar tal cual como sitio estático (Cloudflare Pages, Netlify, GitHub Pages, Vercel) y conectarse a `uniusconsulting.com`. No requiere build ni dependencias.
